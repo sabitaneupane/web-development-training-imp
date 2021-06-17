@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title> Form - Web Designing</title>
+
+    <style>
+        h1 {
+            font-size: 30px;
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 26px;
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        .paragraph {
+            font-size: 16px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
+
+        .image {
+            text-align: center;
+        }
+
+        img {
+            width: 70%;
+        }
+
+        ul {
+            list-style: none;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            text-align: center;
+        }
+
+        li {
+            background-color: white;
+            color: black;
+            padding: 20px;
+            display: inline-block;
+            text-align: center;
+            margin: 2px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        form {
+            background-color: white;
+            color: black;
+            font-size: 18px;
+            width: 500px;
+            padding: 30px;
+            margin: auto;
+        }
+
+        .fullwidth-input {
+            width: 100%;
+            padding: 5px;
+        }
+
+        .bg-white {
+            background-color: white;
+            padding: 60px;
+        }
+
+        .bg-orange {
+            background-color: orange;
+            padding: 60px;
+        }
+
+        .bg-gray {
+            background-color: darkcyan;
+            padding: 60px;
+        }
+
+        .bg-gray p {
+            color: white;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="bg-white">
+        <h1> Web Designing Training</h1>
+        <p class="paragraph">
+            As today nearly every business needs a website to reach its customers, so the demand for a website is off
+            the
+            charts. So <b> web design </b> is one of the most important aspects for anyone who wants to make their
+            career in
+            the tech industry.
+        </p>
+        <p class="paragraph">
+            For more details view
+            <a href="https://nsabita.com.np/web-designing/" target="_blank"> here</a>.
+        </p>
+
+        <div class="image">
+            <img src="webdesign.png" />
+        </div>
+    </div>
+
+
+
+
+
+    <div class="bg-gray">
+        <p class="paragraph"> <b>What you will learn </b> </p>
+
+        <ul>
+            <li> HTML and CSS best practices </li>
+            <li> Fundamentals of JavaScript </li>
+            <li> Responsive design for all screens </li>
+            <li> Bootstrap Framework </li>
+        </ul>
+    </div>
+
+    <div class="bg-orange">
+        <h2>Registration Form</h2>
+        <form>
+            <div>
+                <label> Name: <input type="text" name="name" class="fullwidth-input" /> </label>
+            </div>
+            <br>
+
+            <div>
+                <label> Email: <input type="email" name="email" class="fullwidth-input" /> </label>
+            </div>
+            <br>
+
+            <div>
+                <label> Contact: <input type="number" name="contact" class="fullwidth-input" /> </label>
+            </div>
+            <br>
+
+            <div>
+                <label> Website: <input type="url" name="website" class="fullwidth-input" /> </label>
+            </div>
+            <br>
+
+            <div>
+                <label> Gender:
+                    <label> <input type="radio" name="gender" /> Male </label>
+                    <label> <input type="radio" name="gender" /> Female </label>
+                    <label> <input type="radio" name="gender" /> Others </label>
+                </label>
+            </div>
+            <br>
+
+            <div>
+                <label>
+                    Education:
+                    <select>
+                        <option> Board</option>
+                        <option> +2</option>
+                        <option> Bachelor</option>
+                        <option> Master</option>
+                    </select>
+                </label>
+            </div>
+            <br>
+
+            <div>
+                <label> Hobby:
+                    <label> <input type="checkbox" name="hobby" /> Singing </label>
+                    <label><input type="checkbox" name="hobby" /> Dancing </label> </label>
+            </div>
+            <br>
+
+            <div>
+                <label>
+                    Remarks:
+                    <textarea> </textarea>
+                </label>
+            </div>
+            <br>
+
+            <div>
+                <button> Submit </button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
